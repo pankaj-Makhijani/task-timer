@@ -1,0 +1,205 @@
+.navbar-light-theme {
+  background: var(--primary);
+  color: var(--white);
+}
+
+.navbar-dark-theme {
+  background: var(--less-dark);
+  color: var(--light);
+}
+
+.how-to-box-light-theme {
+  background: var(--primary);
+  color: var(--white);
+}
+
+.how-to-box-dark-theme {
+  background: var(--less-dark);
+  color: var(--light);
+}
+
+.material-icons-light-theme:hover {
+  color: var(--light);
+}
+
+.material-icons-dark-theme:hover {
+  color: var(--primary);
+}
+
+.app-light-theme {
+  background: var(--white);
+  }
+
+.app-dark-theme {
+  background: var(--dark);
+}
+
+.task-input-light-theme {
+  border: 1px solid var(--dark);
+  background: var(--white);
+  color: var(--dark);
+}
+
+.task-input-light-theme::placeholder {
+  color: rgba(0,0,0,0.4);;
+
+}
+
+.task-input-dark-theme {
+  border: 1px solid var(--white);
+  background: var(--dark);
+  color: var(--light);
+}
+
+
+.task-input-dark-theme::placeholder {
+  color: rgba(200,200,200,0.4);
+}
+
+
+.btn-light-theme {
+   border-color: var(--dark);
+   color: var(--dark);
+}
+
+.btn-dark-theme {
+  border-color: var(--light);
+  color: var(--light);
+}
+
+.btn-light-theme:hover {
+  background: var(--dark);
+  color:var(--white);
+}
+
+.btn-dark-theme:hover {
+  background: var(--light);
+  color:var(--dark);
+}
+
+.primary-btn-light-theme {
+  border: 1px solid var(--primary);
+  color: var(--primary);
+}
+
+.primary-btn-dark-theme {
+  border-color: var(--white);
+  color: var(--white);
+}
+
+.primary-btn-light-theme:hover {
+  color: var(--dark);
+  background: var(--light);
+}
+
+.primary-btn-dark-theme:hover {
+  color: var(--dark);
+  background: var(--white);
+}
+
+.start-btn-light-theme {
+  background: var(--primary);
+  color: var(--white);
+  border: 1px solid var(--primary);
+}
+
+.start-btn-light-theme:hover {
+  background: var(--white);
+  color: var(--primary);
+}
+
+.start-btn-dark-theme {
+  background: var(--dark);
+  color: var(--light);
+  border: 1px solid var(--light);
+}
+
+.start-btn-dark-theme:hover {
+  background: var(--light);
+  color: var(--dark);
+}
+
+
+.success-light-theme {
+  color: var(--primary);
+}
+
+.success-dark-theme {
+  color: var(--white);
+}
+
+.task-heading-light-theme {
+  color: var(--primary);
+}
+
+.task-heading-dark-theme {
+  color: var(--light);
+}
+
+.timer-light-theme {
+  color: var(--dark);
+}
+
+.timer-dark-theme {
+  color: var(--white);
+}
+
+.task-history-heading-light-theme {
+  color: var(--dark);
+}
+
+.task-history-heading-dark-theme {
+  color: var(--light);
+}
+
+.task-light-theme {
+  background: white;
+  color: var(--dark);
+}
+
+.task-dark-theme {
+  background: var(--less-dark);
+  color: var(--white);
+}
+
+.task-history-list-light-theme::-webkit-scrollbar-track {
+  border-color: var(--dark);
+}
+
+.task-history-list-dark-theme::-webkit-scrollbar-track {
+  border: 1px solid var(--less-dark);
+}
+
+.task-history-list-light-theme::-webkit-scrollbar-thumb {
+  background: var(--dark);
+}
+
+.task-history-list-dark-theme::-webkit-scrollbar-thumb {
+  background: var(--less-dark);
+}
+
+.task-history-message-light-theme {
+  color: var(--dark);
+}
+
+.task-history-message-dark-theme {
+  color: var(--white);
+  opacity: 0.5;
+}
+
+.footer-light-theme {
+  background: var(--dark);
+}
+
+.footer-light-theme p {
+  color: var(--white);
+}
+
+.footer-dark-theme {
+  background: var(--dark);
+  border-top: 2px solid var(--less-dark);
+}
+
+.footer-dark-theme p {
+  color: var(--white);
+}

@@ -1,0 +1,88 @@
+.outer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+.stopwatch-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 200px;
+}
+
+.top-btn-group {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 3rem;
+}
+
+
+.task-heading h1 {
+  font-size: 3.5rem;
+  margin-top: 8rem;
+}
+
+.timer h1 {
+  font-size: 10rem;
+}
+
+.timer span {
+  color: var(-dark);
+}
+
+.timer {
+  padding: 1rem;
+}
+
+.btn-group {
+  margin-top: 2rem;
+}
+
+.seconds {
+  padding-left: 0.2rem;
+  /* font-size: 2.7rem; */
+}
+
+.task-history-container {
+  margin: 5rem 1rem;
+}
+
+.task-history-container h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.task-history-list {
+  width: auto;
+  max-height: 450px;
+}
+
+
+.task {
+  list-style-type: none;
+  border-left: 8px;
+  padding: 1rem 2rem;
+  margin: 1.5rem;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.bold {
+  font-weight: bolder;
+}
+
+.hide {
+  display: none;
+}
+
+.success {
+  text-align: center;
+}
